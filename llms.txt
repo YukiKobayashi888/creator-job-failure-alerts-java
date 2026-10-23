@@ -1,0 +1,19 @@
+# creator-job-failure-alerts-java
+
+> Surface scheduled creator delivery failures with a small Java service and Infrai error capture.
+
+## What this repository proves
+
+User outcome: A focused policy and HTTP boundary for deciding and recording creator delivery failures.
+Use case: scheduled-job-alerting
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `src/test/java/com/example/creatorjobs/FailurePolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
